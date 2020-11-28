@@ -1,0 +1,3 @@
+include ':progressbarlibrary'
+include ':app'
+rootProject.name = "OdometerProgressbar"
