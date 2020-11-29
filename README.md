@@ -3,6 +3,33 @@
 
 [![Everything Is AWESOME](https://raw.githubusercontent.com/mohamadsajjad/odometerProgressbar/master/demo.JPG)](https://youtu.be/1R83BnxDs60 "Everything Is AWESOME")
 
+
+
+# Setup
+
+### Step 1. Add the JitPack repository to your build file
+
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+
+### Step 2. Add the dependency
+
+```gradle
+dependencies {
+	        implementation 'com.github.mohamadsajjad:odometerProgressbar:Tag'
+	}
+```
+
+
+
+
 # License
 
     Copyright 2020 mohamadsajjad
