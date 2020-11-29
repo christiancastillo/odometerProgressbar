@@ -23,7 +23,7 @@ allprojects {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.mohamadsajjad:odometerProgressbar:Tag'
+	        implementation 'com.github.mohamadsajjad:odometerProgressbar:${lastestRelease}'
 	}
 ```
 
