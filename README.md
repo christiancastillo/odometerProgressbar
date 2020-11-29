@@ -27,8 +27,25 @@ dependencies {
 	}
 ```
 
+# Use
 
+1. add view to your xml layout
 
+```xml
+<com.mohamadsajjad.progressbarlibrary.CustomProgress
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/speed_meter"/>
+```
+2. intialize it
+```java
+CustomProgress customProgress = findViewById(R.id.speed_meter);
+        customProgress
+                .setPercent(83)
+                .setTitle("Title")
+                .setDescription("Description of this progress")
+                .start();//start anim
+```
 
 # License
 
